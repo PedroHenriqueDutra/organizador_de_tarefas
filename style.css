@@ -1,3 +1,15 @@
+#body1{
+    background-color: black;
+}
+#page{
+    background-color: aquamarine;
+    position: relative;
+    left: 110px;
+    padding-right: 0%;
+    font-size: large;
+    max-width: 75%;
+    
+}
 #dropdown{
     position: relative;
     display: inline-block;
@@ -18,7 +30,8 @@ table{
     text-align: center;
     padding: 3%;
     position: relative;
-    left: 35%;
+    left: 25%;
+    max-width: 45%;
     border: 3px;
     border-style: solid;
     color: black;
@@ -42,5 +55,9 @@ td{
 }
 #form{
     position: relative;
-    left: 80%;
+    left: 75%;
+    padding-right: 74%;
+}
+#new_task{
+    max-width: 75%;
 }
