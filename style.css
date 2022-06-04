@@ -1,0 +1,46 @@
+#dropdown{
+    position: relative;
+    display: inline-block;
+}
+#conteudo{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    z-index: 1;
+    padding: 12px 16px;
+}
+#dropdown:hover #conteudo{
+    display: block;
+    background-color:beige;
+}
+table{
+    text-align: center;
+    padding: 3%;
+    position: relative;
+    left: 35%;
+    border: 3px;
+    border-style: solid;
+    color: black;
+    top: 10px;
+}
+td{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 0%;
+    min-height: 30px;
+}
+#cabecalho{
+    position: relative;
+    border: 2px;
+    border-style: solid;
+       
+}
+#cabecalho h1{
+    text-align: center;
+}
+#form{
+    position: relative;
+    left: 80%;
+}
