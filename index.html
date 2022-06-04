@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page">
+        <div id="cabecalho">
+            <h1>Tasks manager</h1>
+        </div>
+        <div id="body">
+            <div id="tabela">
+                <table>
+                    <tr>
+                        <td id="cl1">List</td>
+                        <td id="cl2">Ongoing</td>
+                        <td id="cl3">Suspended</td>
+                        <td id="cl4">Completed</td>
+
+                    </tr>
+                    
+                    <tr>
+                        <td id="f">limpar a casa</td>
+                        <td id="f">programar</td>
+                        <td id="f">jogar</td>
+                        <td id="f">café da manhã</td>
+                    </tr>
+                </table>
+                <div id="form">
+    
+                    <form action="JavaScript:;">
+                        <p>Select the type  to add the task</p>
+    
+                        <input type="radio" name="type" id="List"> List
+    
+                        <br>
+    
+                        <input type="radio" name="type" id="Ongoing">Ongoing
+    
+                        <br>
+    
+                        <input type="radio" name="type" id="Suspended">Suspended
+    
+                        <br>
+                        <input type="radio" name="type" id="Completed">Completed
+    
+                        <br>
+                        <p>Digite the task:</p>
+                        <input type="text" id="new_task">
+                        <br>
+    
+                        <input type="button" id="btn" onclick="enviar()" value="send the tasks">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
