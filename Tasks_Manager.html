@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Tasks manager</title>
 </head>
-<body>
+<body id="body1">
     <div id="page">
         <div id="cabecalho">
             <h1>Tasks manager</h1>
             <div id="dropdown">
-                <div>home</div>
+                <div>Releases</div>
                 <div id="conteudo">
-                    <p>hello</p>
+                    <p>Tasks manager</p>
                 </div>
             </div>
         </div>
         <div id="body">
             <div id="tabela">
-                <table>
+                <table id="tab">
                     <tr>
                         <td id="cl1">List</td>
                         <td id="cl2">Ongoing</td>
@@ -34,6 +35,7 @@
                         <td id="f">programar</td>
                         <td id="f">jogar</td>
                         <td id="f">café da manhã</td>
+                        
                     </tr>
                 </table>
                 <div id="form">
@@ -62,7 +64,7 @@
                         
                         <br>
 
-                        <input type="button" id="btn" onclick="enviar()" value="send the tasks">
+                        <input type="button" id="btn" onclick="send()" value="send the tasks">
                     </form>
                 </div>
             </div>
