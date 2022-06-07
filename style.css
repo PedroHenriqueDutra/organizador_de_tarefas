@@ -2,13 +2,14 @@
     background-color: black;
 }
 #page{
-    background-color: aquamarine;
+    background-color: beige;
     position: relative;
     left: 110px;
     padding-right: 0%;
     font-size: large;
     max-width: 75%;
-    
+    max-height: 100%;
+    padding-bottom: 25%;
 }
 #dropdown{
     position: relative;
